@@ -1,0 +1,183 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    margin: 0;
+}
+.Bj{
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+}
+.Bj img{
+    background-size:cover;
+    width:100%;
+    height: auto;
+}
+header{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(44,39,34);
+}
+.Logo{
+    width: 350px;
+    height: 108px;
+    float: left;
+    margin-left: 100px;
+    background: url("images/sprite-down.png")0px 0px no-repeat;
+}
+.DL{
+    width: 200px;
+    height: 108px;
+    float: left;
+    background: url("images/sprite-down.png")610px -113px ;
+}
+.LJ{
+    width: 110px;
+    height: 108px;
+    float: right;
+    margin-right: 20px;
+    background: url("images/user7.png") 0 15px no-repeat;
+}
+.TCG{
+    width: 400px;
+    height: 108px;
+    float: right;
+    background: url("images/game-logo.png") 30px 13px no-repeat;
+}
+.XIA{
+    height: 600px;
+    width: 1000px;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    margin: auto;
+}
+.SS{
+    height: 600px;
+    width: 500px;
+    float: right;
+}
+.T{
+    height: 70px;
+    width: 265px;
+    margin: auto;
+    margin-top: 0px;
+    border: 1px solid red;
+    background: url("images/sprite-down.png") 0 -112px no-repeat;
+}
+.X{
+    height: 61px;
+    width: 187px;
+    background: url("images/sprite-down.png") -199px 61px;
+    overflow: hidden;
+    float: left;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.B{
+    height: 61px;
+    width: 187px;
+    background: url("images/sprite-down.png") -396px -224px ;
+    float: right;
+    margin-top: 15px;
+    margin-right: 30px;
+}
+.TX{
+    height: 270px;
+    width: 240px;
+    float: left;
+    overflow: hidden;
+    margin-top: 50px;
+}
+.Wj{
+    height: 50px;
+    width: 214px;
+    border: 1px solid rgba(0,0,0,0);
+    margin-left: 30px;
+}
+.icon{
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+    background: url("images/Llogo.png") -352px -80px ;
+    overflow: hidden;
+    float: left;
+}
+.pp{
+    float: left;
+    line-height: 46px;
+    margin-left: 10px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.ie{
+    height: 200px;
+    width: 238px;
+    margin-top: 60px;
+}
+.ie ul li{
+    list-style-type: none;
+}
+.NR{
+    font-size: 13px;
+    line-height: 33px;
+}
+.ys{
+    color: #dd481b;
+    font-weight: 800;
+}
+.XB{
+    height: 270px;
+    width: 211px;
+    float: right;
+    margin-top: 50px;
+}
+.Hs{
+    height: 50px;
+    width: 209px;
+    border: 1px solid rgba(0,0,0,0);
+}
+.tg a{
+    text-decoration: none;
+}
+.YXJ{
+    width: 120px;
+    height: 65px;
+    float: right;
+    position: absolute;
+    bottom: 0; right: 0;
+    margin: auto;
+    background: url("images/logo.png") 14px -148px;
+}
+.FT{
+    float: left;
+    height: 190px;
+    width: 100%;
+    background-color: rgba(40, 39, 37, 1);
+    overflow: hidden;
+}
+.Tik{
+    font-size: 13px;
+    color: grey;
+}
+.Tok{
+    margin-top: 2px;
+    font-size: 12px;
+    color: grey;
+}
+.Left{
+    width: 1000px;
+    float: right;
+    height: 175px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+.Right{
+    margin-top: 25px;
+    margin-right: 15px;
+    width: 300px;
+    height: 50px;
+    background: url("images/sprite-bg.png") -150px -435px no-repeat;
+    float: right;
+}

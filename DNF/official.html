@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>地下城与勇士-DNF-官方网站-腾讯游戏</title>
+    <link rel="stylesheet" href="official.css">
+    <script src="JS&JQ/jquery-3.0.0.min.js"></script>
+    <script>
+        var i=1;
+        $(document).ready(function(){
+            setInterval(function(){
+                $(".img_box").animate({'margin-left':-450},2000,function(){
+                    if (i>3) i=0;
+                    $(".img_box img").first().insertAfter($(".img_box img").last());
+                    $(this).css("margin-left","0px");
+                    $(".DD").css("background-color","grey");
+                    $(".DD").eq(i).css("background-color","orangered");
+                    i++;
+                });
+            },3300)
+        });
+        window.onload=function(){
+            var s=0;
+            var c=document.getElementById("title").getElementsByTagName("li");
+            var a=document.getElementById("main").getElementsByClassName("a");
+            a[s].style.display="block";
+            c[s].className="select";
+            for(var i=0;i<c.length;i++)
+            {
+                c[i].id=i;
+                c[i].onmouseover=function(){
+                    a[s].style.display="none";
+                    c[s].className="";
+                    s=this.id;
+                    a[s].style.display="block";
+                    c[s].className="select";
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="BJ">
+        <img src="images/second.jpg">
+        <div class="Box">
+            <div class="box">
+                <div class="col col1" style="width: 100px;"></div>
+                <div class="col col2">
+                    <p class="footer-item hover"><a href="#">世界观</a></p>
+                    <p class="footer-item hover"><a href="#">周边商城</a></p>
+                    <p class="footer-item hover"><a href="#">道具城</a></p>
+                </div>
+                <div class="col col3"style="width: 98px">
+                    <P class="footer-item hover"><a href="#">新闻公告</a></P>
+                    <P class="footer-item hover"><a href="#">版本专题</a></P>
+                    <P class="footer-item hover"><a href="#">职业攻略</a></P>
+                    <P class="footer-item hover"><a href="#">壁纸时装</a></P>
+                    <P class="footer-item hover"><a href="#">视频中心</a></P>
+                </div>
+                <div class="col col4" style="width: 78px;">
+                    <P class="footer-item hover"><a href="#">官方活动</a></P>
+                    <P class="footer-item hover"><a href="#">合作活动</a></P>
+                    <P class="footer-item hover"><a href="#">媒体活动</a></P>
+                    <P class="footer-item hover"><a href="#">网吧特权</a></P>
+                    <P class="footer-item hover"><a href="#">玩家共创</a></P>
+                </div>
+                <div class="col col5" style="width: 80px">
+                    <P class="footer-item hover"><a href="#">F1天王赛</a></P>
+                    <P class="footer-item hover"><a href="#">职业联赛</a></P>
+                    <P class="footer-item hover"><a href="#">职业第一人</a></P>
+                    <P class="footer-item hover"><a href="#">DPL赛事</a></P>
+                </div>
+                <div class="col col6" style="width: 96px;">
+                    <P class="footer-item hover"><a href="#">充值</a></P>
+                    <P class="footer-item hover"><a href="#">兑换CDKEY</a></P>
+                    <P class="footer-item hover"><a href="#">角色恢复</a></P>
+                    <P class="footer-item hover"><a href="#">圣耀服务</a></P>
+                </div>
+                <div class="col col7" style="width: 108px;">
+                    <P class="footer-item hover"><a href="#">安全任务</a></P>
+                    <P class="footer-item hover"><a href="#">处罚申诉</a></P>
+                    <P class="footer-item hover"><a href="#">视频举报</a></P>
+                    <P class="footer-item hover"><a href="#">被盗找回</a></P>
+                    <P class="footer-item hover"><a href="#">信用星级</a></P>
+                </div>
+                <div class="col col8" style="width: 105px;">
+                    <P class="footer-item hover"><a href="#">DNF助手</a></P>
+                    <P class="footer-item hover"><a href="#">论坛</a></P>
+                    <P class="footer-item hover"><a href="#">微信</a></P>
+                    <P class="footer-item hover"><a href="#">微博</a></P>
+                    <P class="footer-item hover"><a href="#">问答</a></P>
+                </div>
+            </div>
+            <div class="Bbox">
+                <div class="download">
+                    <div class="DownGame" onclick="window.open('DonwGame.html')" style="cursor: pointer;"></div>
+                    <div class="HHH">
+                        <div class="Enroll" onclick="window.open('zhuce.html')" style="cursor: pointer;"></div>
+                        <div class="Login" onclick="window.open('login.html')" style="cursor: pointer;"></div>
+                    </div>
+                    <div class="Xinshou" style="cursor: pointer;"></div>
+                </div>
+                <div class="BIG Carousel">
+                    <div class="img_box">
+                        <img src="images/Buff1.jpg">
+                        <img src="images/Buff2.jpg">
+                        <img src="images/Buff3.jpg">
+                        <img src="images/Buff4.jpg">
+                    </div>
+                    <div class="dot">
+                        <p class="DD" style="background: orangered"></p>
+                        <p class="DD"></p>
+                        <p class="DD"></p>
+                        <p class="DD"></p>
+                    </div>
+
+                </div>
+                <div class="BIG Scroll" id="BIG Scroll">
+                    <div id="main">
+                        <ul id="title">
+                            <li class="c" style="cursor: pointer;">综合</li>
+                            <li class="c" style="cursor: pointer;">公告</li>
+                            <li class="c" style="cursor: pointer;">活动</li>
+                            <li class="c" style="cursor: pointer;">赛事</li>
+                            <li class="c" style="cursor: pointer;">社区</li>
+                        </ul>
+                        <div class="a">
+                            <ul>
+                                <li class="l one" style="color: orangered">&nbsp;&nbsp;&nbsp;&nbsp;[新闻] 史诗之路超越征程，90级史诗 超高爆率 送跨界石</li>
+                                <li class="l"><a href="#">[公告] 12月27日跨区8维护延迟公告（已开放）</a><span class="wc">12/28</span></li>
+                                <li class="l"><a href="#">[公告] 关于BUFF换装装备的说明</a><span class="wc">12/27</span></li>
+                                <li class="l"><a href="#">[公告] 12月27日 早5点停机更新公告</a><span class="wc">12/26</span></li>
+                                <li class="l"><a href="#">[新闻] 命运选择题，猪年装扮和表情大放送</a><span class="wc">12/26</span></li>
+                                <li class="l"><a href="#">[新闻] 欢喜跨年倒计时，登录送猪年宠物和魔锤</a><span class="wc">12/26</span></li>
+                                <li class="l"><a href="#">[新闻] 饱食美味迎新年，猪年装扮和邀请函特制符咒</a><span class="wc">12/26</span></li>
+                            </ul>
+                        </div>
+                        <div class="a">
+                            <ul>
+                                <li class="l one" style="color: orangered">&nbsp;&nbsp;&nbsp;&nbsp;[公告] 12月29日成都电信网络运营商设备升级相关公告</li>
+                                <li class="l"><a href="#">[公告] 关于BUFF换装装备的说明</a><span class="wc">12/27</span></li>
+                                <li class="l"><a href="#">[公告] 12月27日早5点停机更新公告</a><span class="wc">12/26</span></li>
+                                <li class="l"><a href="#">[公告] 超时空之战副本作弊追加处罚公告</a><span class="wc">12/26</span></li>
+                                <li class="l"><a href="#">[公告] 部分圣诞活动下线时间调整公告</a><span class="wc">12/25</span></li>
+                                <li class="l"><a href="#">[公告] 关于初始化欢乐代币卷的公告</a><span class="wc">12/24</span></li>
+                                <li class="l"><a href="#">[公告] 12月13日 早5点30分停机更新公告</a><span class="wc">12/18</span></li>
+                            </ul>
+                        </div>
+                        <div class="a">
+                            <ul>
+                                <li class="l one" style="color: orangered">&nbsp;&nbsp;[活动] 史诗之路超越征程，90级史诗 超高爆率 送跨界石</li>
+                                <li class="l"><a href="#">[活动] 命运选择题，猪年装扮和表情大放送</a><span class="wc">12/26</span></li>
+                                <li class="l"><a href="#">[活动] 欢喜跨年倒计时，登录送猪年宠物和魔锤</a><span class="wc">12/26</span></li>
+                                <li class="l"><a href="#">[活动] 饱食美味迎新年，猪年装扮和邀请函特制符咒</a><span class="wc">12/26</span></li>
+                                <li class="l"><a href="#">[活动] 新年六吉六福礼盒，+12强化券在新年等你</a><span class="wc">12/26</span></li>
+                                <li class="l"><a href="#">[活动] 华丽灿烂迎新年，18年压轴魔盒抽灿烂徽章</a><span class="wc">12/26</span></li>
+                                <li class="l"><a href="#">[活动] 圣诞锦鲤送天空套、顶级手办、体验服资格</a><span class="wc">12/24</span></li>
+                            </ul>
+                        </div>
+                        <div class="a">
+                            <ul>
+                                <li class="l one" style="color: orangered">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[DPL] 2018年DPL联赛奖励发放通知 </li>
+                                <li class="l"><a href="#">[DPL] DPL太秀了: 颁奖夜卢克最佳反派演员成就奖</a><span class="wc">12/29</span></li>
+                                <li class="l"><a href="#">[F1天王赛] 2018DNF F1 天王赛巅峰对决 金太焕荣登冠</a><span class="wc">12/24</span></li>
+                                <li class="l"><a href="#">[DPL] 首届DPL联赛决赛圆满落幕，TCH荣登国服竞速王</a><span class="wc">12/24</span></li>
+                                <li class="l"><a href="#">[职业联赛] DNF第六届职业联赛圆满落幕</a><span class="wc">12/24</span></li>
+                                <li class="l"><a href="#">[DPL] DPL打团长第九卷公布，欢乐的收获时刻</a><span class="wc">12/19</span></li>
+                                <li class="l"><a href="#">[DPL] DPL太秀了第一期: 森迪公主被魔王如此对待</a><span class="wc">12/16</span></li>
+                            </ul>
+                        </div>
+                        <div class="a">
+                            <ul>
+                                <li class="l one" style="color: orangered">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[论坛] 写手团人品帝期刊 【第七十五期】 </li>
+                                <li class="l"><a href="#">[论坛] 体验服快讯: 春节版本第一时间内容更新</a><span class="wc">12/25</span></li>
+                                <li class="l"><a href="#">[论坛] 体验服快讯: 1227版本更新 (魔盒更新)</a><span class="wc">12/25</span></li>
+                                <li class="l"><a href="#">[论坛] 奶粉秀活动: 温情圣诞节来暖冬</a><span class="wc">12/25</span></li>
+                                <li class="l"><a href="#">[论坛] 圣诞锦鲤: 成为2018年最后一个幸运DNFer</a><span class="wc">12/25</span></li>
+                                <li class="l"><a href="#">[论坛] 《卡路里》改编曲目《打团去》</a><span class="wc">12/23</span></li>
+                                <li class="l"><a href="#">[论坛] 写手团人品帝期刊 (第四十三期)</a><span class="wc">12/23</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="X">
+                <div class="PAO">
+                    <div class="smok jp">
+                        <div class="LOL"></div>
+                        <li style="padding-top: 18px;font-weight: 700;">赠送超值游戏礼包</li>
+                        <li style="color: grey">方便您畅爽体验游戏</li>
+                    </div>
+                    <div class="smok kp">
+                        <div class="LOO"></div>
+                        <li style="padding-top: 18px;font-weight: 700;">专属周边设计</li>
+                        <li style="color: grey">精选游戏素材 · 独特设计</li>
+                    </div>
+                    <div class="smok lp">
+                        <div class="LOP"></div>
+                        <li style="padding-top: 18px;font-weight: 700;">7天无理由退换货</li>
+                        <li style="color: grey">为您提供售后无忧保障</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ZJ">
+        <div class="YBL"></div>
+        <div class="King">
+            <div class="Shopping aa">
+                <div class="pic zz"></div>
+                <div class="PR">
+                <li><a style="font-size: 17px;cursor: pointer">十年追忆画册-泰拉版</a></li>
+                <li><span class="price" style="cursor: pointer">299元</span>&nbsp;&nbsp;&nbsp;喜欢:38875</li>
+                </div>
+            </div>
+            <div class="Shopping bb">
+                <div class="pic yy"></div>
+                <div class="PR">
+                    <li><a style="font-size: 17px;cursor: pointer">十年追忆画册</a></li>
+                    <li><span class="price" style="cursor: pointer">338元</span>&nbsp;&nbsp;&nbsp;喜欢:7930</li>
+                </div>
+            </div>
+            <div class="Shopping cc">
+                <div class="pic xx"></div>
+                <div class="PR">
+                    <li><a style="font-size: 17px;cursor: pointer">《使徒来袭Ⅱ》点藏包</a></li>
+                    <li><span class="price" style="cursor: pointer">299元</span>&nbsp;&nbsp;&nbsp;喜欢:59650</li>
+                </div>
+            </div>
+            <div class="Shopping dd">
+                <div class="pic ww"></div>
+                <div class="PR">
+                    <li><a style="font-size: 17px;cursor: pointer">女圣职异色手办-普通版</a></li>
+                    <li><span class="price" style="cursor: pointer">599元</span>&nbsp;&nbsp;&nbsp;喜欢:20213</li>
+                </div>
+            </div>
+            <div class="Shopping ee">
+                <div class="pic vv"></div>
+                <div class="PR">
+                    <li><a style="font-size: 17px;cursor: pointer">安徒恩武器典藏包</a></li>
+                    <li><span class="price" style="cursor: pointer">338元</span>&nbsp;&nbsp;&nbsp;喜欢:29693</li>
+                </div>
+            </div>
+            <div class="Shopping ff">
+                <div class="pic uu"></div>
+                <div class="PR">
+                    <li><a style="font-size: 17px;cursor: pointer">凯丽的最爱典藏包</a></li>
+                    <li><span class="price" style="cursor: pointer">368元</span>&nbsp;&nbsp;&nbsp;喜欢:30547</li>
+                </div>
+            </div>
+            <div class="Shopping gg">
+                <div class="pic tt"></div>
+                <div class="PR">
+                    <li><a style="font-size: 17px;cursor: pointer">风暴骑兵二觉手办</a></li>
+                    <li><span class="price" style="cursor: pointer">299元</span>&nbsp;&nbsp;&nbsp;喜欢:38875</li>
+                </div>
+            </div>
+            <div class="Shopping hh">
+                <div class="pic ss"></div>
+                <div class="PR">
+                    <li><a style="font-size: 17px;cursor: pointer">女魔法师Q版手办</a></li>
+                    <li><span class="price" style="cursor: pointer">98元</span>&nbsp;&nbsp;&nbsp;喜欢:3058</li>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="FT" class="FT">
+        <div class="Left">
+            <p class="Tik">腾讯互动娱乐 | 服务条款 | 隐私政策 | 腾讯游戏招聘 | 腾讯游戏客服 | 游戏地图 | 商务合作 | 腾讯网 | 网站导航</p>
+            <p class="Tok txg">腾讯公司版权所有</p>
+            <p class="Tok co">COPYRIGHT © 1998 - 2018 TENCENT. ALL RIGHTS RESERVED.</p>
+            <p class="Tok cop">COPYRIGHT © NEOPLE.INC., ALL RIGHTS RESERVED.</p>
+            <p class="Tok dzb">抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活</p>
+            <p class="Tok bwl">本网络游戏适合13+岁的用户使用；为了您的健康，请合理控制游戏时间。</p>
+            <p class="Tok yww">粤网文[2017]6138-1456号|新出网证（粤）字010号</p>
+            <p class="Tok wjw">文网进字[2014]034号|ISBN 978-7-89988-060-9|新广出审[2014]952号|全国文化市场统一举报电话：12318</p>
+        </div>
+        <div class="Right"></div>
+    </footer>
+</body>
+</html>

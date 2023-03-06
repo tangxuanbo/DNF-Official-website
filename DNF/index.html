@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>地下城与勇士-DNF-官方网站-腾讯游戏</title>
+	<link rel="stylesheet" href="index.css">
+	<script src="JS&JQ/jquery-3.0.0.min.js"></script>
+	<script>
+        var t=1;
+        $(document).ready(function () {
+            $(".main").hover(function () {
+                var $this = $(this).children("ul");
+                $this.stop().slideToggle(500);
+                if(t==1){
+                    t=2;
+                }
+                else{
+                    t=1;
+                }
+            });
+        });
+	</script>
+</head>
+<body>
+<header>
+	<div class="LeftBox"></div>
+	<div class="JQ">
+		<ul>
+			<li class="main"><a href="home_page.html">首页</a>
+			</li>
+			<li class="main"><a href="DonwGame.html">下载</a>
+				<ul>
+					<li><a style="font-size: 17px;" href="https://lol.qq.com/">英雄联盟</a> </li>
+					<li><a style="font-size: 17px;" href="https://fn.qq.com/">堡垒之夜</a> </li>
+					<li><a style="font-size: 17px;" href="https://cf.qq.com/">穿越火线</a> </li>
+					<li><a style="font-size: 17px;" href="https://codol.qq.com/">使命召唤OL</a> </li>
+					<li><a style="font-size: 17px;" href="https://mho.qq.com/">怪物猎人世界</a> </li>
+				</ul>
+			</li>
+			<li class="main"><a href="#">游戏</a>
+				<ul>
+					<li><a style="font-size: 17px;" href="#">职业</a> </li>
+					<li><a style="font-size: 17px;" href="#">时装</a> </li>
+					<li><a style="font-size: 17px;" href="#">武器</a> </li>
+					<li><a style="font-size: 17px;" href="#">装备</a> </li>
+				</ul>
+			</li>
+			<li class="main"><a href="#">社区</a>
+				<ul>
+					<li><a style="font-size: 17px;" href="#">活动</a> </li>
+					<li><a style="font-size: 17px;" href="#">赛事</a> </li>
+					<li><a style="font-size: 17px;" href="#">讨论</a> </li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</header>
+<div class="bigBOX">
+	<div class="content">
+		<div class="video" >
+			<video controls="controls" loop="loop" width="500" height="296" poster="images/poster.png">
+				Your browser does not support the video tag.
+				<source src="video/DNF.ogg" type="video/ogg">
+			</video>
+		</div>
+
+		<div class="btn_base" onclick="window.open('official.html')" style="cursor: pointer;">
+
+		</div>
+
+		<div class="btn_case" onclick="window.open('DonwGame.html')" style="cursor: pointer;"></div>
+		<div class="btn_dase" onclick="window.open('DonwGame.html')" style="cursor: pointer;"></div>
+		<div class="btn_ease" onclick="window.open('DonwGame.html')" style="cursor: pointer;"></div>
+	</div>
+</div>
+
+
+<footer id="FT" class="FT">
+	<div class="Left">
+		<p class="Tik">腾讯互动娱乐 | 服务条款 | 隐私政策 | 腾讯游戏招聘 | 腾讯游戏客服 | 游戏地图 | 商务合作 | 腾讯网 | 网站导航</p>
+		<p class="Tok txg">腾讯公司版权所有</p>
+		<p class="Tok co">COPYRIGHT © 1998 - 2018 TENCENT. ALL RIGHTS RESERVED.</p>
+		<p class="Tok cop">COPYRIGHT © NEOPLE.INC., ALL RIGHTS RESERVED.</p>
+		<p class="Tok dzb">抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活</p>
+		<p class="Tok bwl">本网络游戏适合13+岁的用户使用；为了您的健康，请合理控制游戏时间。</p>
+		<p class="Tok yww">粤网文[2017]6138-1456号|新出网证（粤）字010号</p>
+		<p class="Tok wjw">文网进字[2014]034号|ISBN 978-7-89988-060-9|新广出审[2014]952号|全国文化市场统一举报电话：12318</p>
+	</div>
+	<div class="Right"></div>
+</footer>
+
+</body>
+</html>

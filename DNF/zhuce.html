@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>地下城与勇士-DNF-游戏账号注册</title>
+    <link rel="stylesheet" href="zhuce.css">
+    <script>
+        function reg(){
+            var btn=document.getElementById("btn");
+            var ps1=document.getElementById("ps").value;
+            var ps2=document.getElementById("ps2").value;
+            var usernmae=document.getElementById("user").value;
+            if(ps1!=ps2 || ps1=="" || ps2=="" || usernmae==""){
+                alert("用户名或密码输入错误，请重新输入！");
+            }
+            else{
+                localStorage.name=usernmae;
+                localStorage.psd=ps1;
+                alert("注册成功！");
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="BJ">
+    <img src="images/Nb.jpg">
+    <div class="BoX">
+        <div class="BTitle">
+            <p>欢 迎 阿 拉 德 勇 士</p>
+        </div>
+        <div class="LTitle">
+            <p>阿拉德大陆需要你的守护！</p>
+        </div>
+        <div id="Lan">
+            <from id="T">
+                <div class="reg"><input id="user" placeholder=" 昵 称" type="text" name="myName" style="background:rgba(150,150,150, 0.4); "></div>
+                <div class="reg"><input id="ps" type="password" placeholder=" 密 码" name="pass" style="background:rgba(150,150,150, 0.4); "></div>
+                <div class="reg"><input id="ps2" type="password" placeholder=" 再 次 输 入" name="passAgain" style="background:rgba(150,150,150, 0.4); "></div>
+                <button class="reg" onclick="reg()" style="font-size: 28px;color: white"> 立 即 注 册 </button>
+                <a href="login.html">注册完成后，点这里！</a>
+            </from>
+        </div>
+        <div class="Feet">
+            <p>Copyright © 1998-2018Tencent All Rights Reserved</p>
+        </div>
+    </div>
+</div>
+    <footer id="FT" class="FT">
+        <div class="Left">
+            <p class="Tik">腾讯互动娱乐 | 服务条款 | 隐私政策 | 腾讯游戏招聘 | 腾讯游戏客服 | 游戏地图 | 商务合作 | 腾讯网 | 网站导航</p>
+            <p class="Tok txg">腾讯公司版权所有</p>
+            <p class="Tok co">COPYRIGHT © 1998 - 2018 TENCENT. ALL RIGHTS RESERVED.</p>
+            <p class="Tok cop">COPYRIGHT © NEOPLE.INC., ALL RIGHTS RESERVED.</p>
+            <p class="Tok dzb">抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活</p>
+            <p class="Tok bwl">本网络游戏适合13+岁的用户使用；为了您的健康，请合理控制游戏时间。</p>
+            <p class="Tok yww">粤网文[2017]6138-1456号|新出网证（粤）字010号</p>
+            <p class="Tok wjw">文网进字[2014]034号|ISBN 978-7-89988-060-9|新广出审[2014]952号|全国文化市场统一举报电话：12318</p>
+        </div>
+        <div class="Right"></div>
+    </footer>
+</body>
+</html>

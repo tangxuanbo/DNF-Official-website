@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    text-decoration: none;
+}
+.BJ{
+    width: 100%;
+    height: 861px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+}
+.BJ img{
+    background-size:cover;
+    width:100%;
+    height: auto;
+}
+.Box{
+    width: 100%;
+    height: 640px;
+    position: absolute;
+    top: 0;bottom: 0;left: 0;right: 0;
+    margin: auto;
+    margin-top: 75px;
+}
+.X{
+    width: 100%;
+    height: 80px;
+    background-color: gainsboro;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.PAO{
+    width: 990px;
+    height: 80px;
+}
+.LOL{
+    width: 70px;
+    height: 80px;
+    float: left;
+    background: url("images/bottom.png") 0 -248px;
+}
+.LOO{
+    width: 70px;
+    height: 80px;
+    float: left;
+    background: url("images/bottom.png") 0 -1px;
+}
+.LOP{
+    width: 70px;
+    height: 80px;
+    float: left;
+    background: url("images/bottom.png") 0 -80px;
+}
+.jp{
+    width: 330px;
+    height: 80px;
+    float: left;
+}
+.kp{
+    width: 330px;
+    height: 80px;
+    float: left;
+}
+.lp{
+    width: 330px;
+    height: 80px;
+    float: right;
+}
+.box{
+    height: 150px;
+    width: 760px;
+}
+.col{
+    width: 92px;
+    height: 150px;
+    float: left;
+}
+.col a:hover{
+    color: gold;
+    font-size: 14px;
+}
+.footer-item{
+    font-size: 14px;
+    text-align: center;
+    line-height: 22px;
+}
+.footer-item a{
+    color: white;
+    text-decoration: none;
+}
+.Bbox{
+    width: 1118px;
+    height: 285px;
+    margin-top: 196px;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+.download{
+    width: 214px;
+    height: 360px;
+    float: left;
+}
+.BIG{
+    width: 450px;
+    height: 272px;
+    float: left;
+    margin-top: -1px;
+    overflow: hidden;
+}
+.img_box{
+    width: 1800px;
+    height: 275px;
+    margin-top: 8px;
+}
+.img_box img{
+    display: block;
+    float: left;
+    width: 450px;
+}
+.dot{
+    width: 450px;
+    height: 28px;
+    text-align: center;
+    position: absolute;
+    top: 590px;
+}
+.dot .DD{
+    display: inline-block;
+    width: 16px;
+    height: 5px;
+    border-radius: 50px;
+    background-color: grey;
+    cursor: pointer;
+}
+.DownGame{
+    width: 214px;
+    height: 150px;
+    background: url("images/sprite-bg.png") 0px 0px no-repeat;
+}
+.Enroll{
+    width: 116px;
+    height: 50px;
+    float: left;
+    background: url("images/sprite-bg2.png") 0px -158px;
+    overflow: hidden;
+}
+.Login{
+    width: 98px;
+    height: 50px;
+    float: left;
+    background: url("images/sprite-bg2.png")-117px -158px;
+    overflow: hidden;
+}
+.HHH{
+    height: 50px;
+    width: 214px;
+}
+.Xinshou{
+    width: 214px;
+    height: 71px;
+    background: url("images/sprite-bg2.png") 0 -207px;
+}
+
+#main{
+    margin-top: 8px;
+    width:450px;
+    height: 270px;
+    background-color: rgb(26,18,16);
+}
+#main li{
+    color: rgb(198,183,154);
+}
+#title li{
+    font-size: 20px;
+    float:left;
+    height:20px;
+    width:89px;
+    text-align:center;
+}
+li.select{
+    background: rgb(26,18,16);
+    border-top: 2px solid orangered;
+}
+.a{
+    display:none;
+    float: left;
+}
+.l{
+    height:28px;
+    width:450px;
+    float: left;
+    line-height:30px;
+    color: white;
+}
+.l a{
+    color: darkgrey;
+    font-size: 14px;
+}
+.one{
+    background-color: black;
+    margin-top: 15px;
+    padding-top: 10px;
+    height: 40px;
+    width: 450px;
+    float: left;
+    font-size: 17px;
+    font-weight: 800;
+}
+.a ul li a:hover{
+    color: orangered;
+}
+.ZJ{
+    width: 100%;
+    height: 800px;
+}
+.YBL{
+    float: right;
+    width: 390px;
+    height: 790px;
+    background: url(images/剑魂.png);
+}
+.King{
+    left: 0;right: 0;
+    width: 1118px;
+    height: 750px;
+    position: absolute;
+    z-index: 100;
+}
+.wc{
+    color: grey;
+    font-size: 13px;
+    float: right;
+    padding-right: 10px;
+}
+.Shopping{
+    width: 220px;
+    height: 330px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 40px;
+
+}
+.pic{
+    width: 100%;
+    height: 270px;
+}
+.PR li{
+    text-align: center;
+}
+.price{
+    color: red;
+}
+.PR{
+    width: 100%;
+    height: 55px;
+}
+.PR li a:hover{
+    text-decoration: underline black;
+}
+.zz{
+    background: url(images/1503.jpg);
+    background-size: 100% 100%;
+}
+.yy{
+    background: url(images/1374.jpg);
+    background-size: 100% 100%;
+}
+.xx{
+    background: url(images/1236.jpg);
+    background-size: 100% 100%;
+}
+.ww{
+    background: url(images/1234.png);
+    background-size: 100% 100%;
+}
+.vv{
+    background: url(images/1309.jpg);
+    background-size: 100% 100%;
+}
+.uu{
+    background: url(images/1348.jpg);
+    background-size: 100% 100%;
+}
+.tt{
+    background: url(images/1508.jpg);
+    background-size: 100% 100%;
+}
+.ss{
+    background: url(images/1489.png);
+    background-size: 100% 100%;
+}
+.FT{
+    float: left;
+    height: 175px;
+    width: 100%;
+    background-color: rgba(40, 39, 37, 1);
+
+}
+.Tik{
+    font-size: 13px;
+    color: grey;
+}
+.Tok{
+    margin-top: 2px;
+    font-size: 12px;
+    color: grey;
+}
+.Left{
+    width: 1000px;
+    float: right;
+    height: 160px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+.Right{
+    margin-top: 25px;
+    margin-right: 15px;
+    width: 300px;
+    height: 50px;
+    background: url("images/sprite-bg.png") -150px -435px no-repeat;
+    float: right;
+}
